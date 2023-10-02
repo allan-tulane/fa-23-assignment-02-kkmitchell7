@@ -44,7 +44,7 @@ and push to your github repository.
   * $W(n)=49W(n/25)+n^{3/2}\log n$
 .  
 .  
-.  w(n) = O(n^4*log(n))
+.  w(n) = O(n^(3/2)*log(n)*log(n))
 .  
 .  
   * $W(n)=W(n-1)+2$
@@ -61,7 +61,7 @@ and push to your github repository.
 .  
   * $W(n)=W(\sqrt{n})+1$
 .
-.  w(n) = O(log(n))
+.  w(n) = O(log(log(n)))
 .
 .
 
